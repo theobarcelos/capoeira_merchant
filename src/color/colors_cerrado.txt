@@ -1,0 +1,4 @@
+#ffcb04 - Amarelo
+#00718b - Azul
+#007a40 - Verde
+#444444 - Cinza
