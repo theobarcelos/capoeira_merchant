@@ -7,35 +7,72 @@
     font-style: normal;
 }
 
-li{
-    font-weight: 400;
+html, body{
+    overflow-x: hidden;
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #ffea95;
-    height: 100px;
+    display: grid;
+    background-color: rgb(133, 130, 0);
+    padding-bottom: 10px;
 }
 
-.nav-list-container{
-    align-self: center;
-    margin-right: 40px;
-}
-
-.nav-list{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    gap: 1.5rem;
+.logo-nav-container{
+    justify-self: center;
 }
 
 .logo-nav{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
-.img-cerrado-bg{
-    width: 100%;
-    /* height: 900px; */
+.nav-list-container{
+    justify-content: center;
+    display: grid;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.list-item{
+    font-weight: 400;
+    display: inline;
+    margin-inline-start: 15px;
+}
+
+.link-item{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.link-item:hover{
+    transition: 0.5s ease-out;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.icons-container{
+    display: grid;
+    gap: 10px;
+    margin-right: 10px;
+    position: absolute;
+    justify-self: right;
+    align-self: center;
+}
+
+.icon-usuario{
+    width: 35px;
+    height: 35px;
+}
+
+.icon-carrinho{
+    width: 35px;
+    height: 35px;
+}
+
+.icon-telefone{
+    width: 35px;
+    height: 35px;
 }
