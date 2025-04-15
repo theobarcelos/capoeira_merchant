@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Cerrado Shop</title>
 </head>
 <body>
@@ -14,21 +15,51 @@
             </div>
             <div class="nav-list-container">
                 <ul class="nav-list">
-                    <li class="list-item"><a href="" class="link-item">Início</a></li>
-                    <li class="list-item"><a href="" class="link-item">Vestuário</a></li>
-                    <li class="list-item"><a href="" class="link-item">Acessórios</a></li>
-                    <li class="list-item"><a href="" class="link-item">Carrinho</a></li>
+                    <li class="list-item">
+                        <a href="" class="link-item">Início</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="link-item">Vestuário</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="link-item">Acessórios</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="link-item">Carrinho</a>
+                    </li>
                 </ul>
             </div>
             <div class="icons-container">
-                <a href="" class="link-icon"><img src="src/assets/user.png" alt="" class="icon-usuario"></a>
-                <a href="" class="link-icon"><img src="src/assets/carrinho.png" alt="" class="icon-carrinho"></a>
-                <a href="" class="link-icon"><img src="src/assets/telefone.png" alt="" class="icon-telefone"></a>
+                <a href="" class="link-icon">
+                    <img src="src/assets/user.png" alt="" class="icon-usuario">
+                </a>
+                <a href="" class="link-icon">
+                    <img src="src/assets/carrinho.png" alt="" class="icon-carrinho">
+                </a>
+                <a href="" class="link-icon">
+                    <img src="src/assets/telefone.png" alt="" class="icon-telefone">
+                </a>
             </div>
         </nav>
     </header>
-    <main>        
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="src/assets/LOGO ESCOLA DE CAPOEIRA CERRADO_pages-to-jpg-0001.jpg" alt="" class="img-swiper">
+                </div>
+                <div class="swiper-slide">
+                    <img src="src/assets/LOGO ESCOLA DE CAPOEIRA CERRADO_pages-to-jpg-0001.jpg" alt="" class="img-swiper">
+                </div>
+                <div class="swiper-slide">
+                    <img src="src/assets/LOGO ESCOLA DE CAPOEIRA CERRADO_pages-to-jpg-0001.jpg" alt="" class="img-swiper">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>     
     </main>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="src/js/index.js"></script>
 </body>
 </html>
